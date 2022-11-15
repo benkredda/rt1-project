@@ -8,12 +8,11 @@ the solution contains three parts (the code in python, the flowchart,and the rea
 
 the code shows how the robot will choose the closest silver token to him and grab it, then put it near to the golden 
 one. for the control of the linear distance and the orientation i changed the values of thresholds a_th and d_th in a 
-way that suits the assignment,i added another integer j that is useful for iteration**in this assignment the process of 
-finding a silver box grabing it and putting it close to the golden one has to be repeated six times until we pair them 
-together**,besides the equation silver=true which lets the robot know if it has to look for a silver or for a golden 
-marker, then i gave the useful functions that the robot use  inorder to move forward**drive**and to rotate**turn**to 
-the left or the right, also how to find the closest silver or 
-the golden token  
+way that suits the assignment,i added another integer j that is useful for iteration **in this assignment the process 
+of finding a silver box grabing it and putting it close to the golden one has to be repeated six times until we pair 
+them together**,besides the equation silver=true which lets the robot know if it has to look for a silver or for a 
+golden marker, then i gave the useful functions that the robot use  inorder to move forward **drive** and to 
+rotate **turn** to the left or the right, also how to find the closest silver or golden token.  
 
 then i made the first condition if silver==true so as to look for a silver token, otherwise for a golden one, and we 
 move the robot forward.  
