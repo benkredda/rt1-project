@@ -7,7 +7,6 @@ the solution contains three parts (the code in python, the flowchart,and the rea
 ### the code in python
 
 the code shows how the robot will choose the closest silver token to him and grab it, then put it near to the golden 
-
 one. for the control of the linear distance and the orientation i changed the values of thresholds a_th and d_th in a 
 way that suits the assignment,i added another integer j that is useful for iteration**in this assignment the process of 
 finding a silver box grabing it and putting it close to the golden one has to be repeated six times until we pair them 
