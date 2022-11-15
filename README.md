@@ -21,10 +21,10 @@ the second condition if was used if there's no token detected we make the robot 
 token we try to grab it  
 
 we now try to turn the robot and modify the value of the variable silver, so that in the next step we will look for the 
-other type of token which is the golden token.now i want to look for the closest golden token to pair them**while 
+other type of token which is the golden token.now i want to look for the closest golden token to pair them **while 
 silver == False :** by using this while,and then dist has to be less than the d_th inorder to choose the golden token, 
 once finding it the robot has to release the silver token,move backward and on the left, and repeat the same operation 
-six times, that's why i wrote the equation**j = j+1**and j=6, after pairing all the boxes we excit and break to stop 
+six times, that's why i wrote the equation **j = j+1** and j=6, after pairing all the boxes we excit and break to stop 
 the robot.  
 
 please find attached the flowchart in pdf named flowchart of the first assignment, and the code named assignment2.  
