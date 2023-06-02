@@ -24,8 +24,7 @@ def drive(speed, seconds):
     Args: speed (int): the speed of the wheels
 	  seconds (int): the time interval
     """
-    R.motors[0].m0.power = speed
-    R.motors[0].m1.power = speed
+  
     time.sleep(seconds)
     R.motors[0].m0.power = 0
     R.motors[0].m1.power = 0
